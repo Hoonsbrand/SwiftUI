@@ -11,6 +11,7 @@
 		7280EB6929B9B92300A8F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280EB6829B9B92300A8F1E5 /* ContentView.swift */; };
 		7280EB6B29B9B92400A8F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */; };
 		7280EB6E29B9B92400A8F1E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7280EB6D29B9B92400A8F1E5 /* Preview Assets.xcassets */; };
+		7280EB7529B9BCB100A8F1E5 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280EB7429B9BCB100A8F1E5 /* MyVStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		7280EB6829B9B92300A8F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7280EB6D29B9B92400A8F1E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7280EB7429B9BCB100A8F1E5 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		7280EB7629B9BDB400A8F1E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 				7280EB6829B9B92300A8F1E5 /* ContentView.swift */,
 				7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */,
 				7280EB6C29B9B92400A8F1E5 /* Preview Content */,
+				7280EB7429B9BCB100A8F1E5 /* MyVStackView.swift */,
+				7280EB7629B9BDB400A8F1E5 /* README.md */,
 			);
 			path = "SwiftUI_tutorial_#1";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				7280EB6929B9B92300A8F1E5 /* ContentView.swift in Sources */,
 				7280EB6729B9B92300A8F1E5 /* SwiftUI_tutorial__1App.swift in Sources */,
+				7280EB7529B9BCB100A8F1E5 /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
