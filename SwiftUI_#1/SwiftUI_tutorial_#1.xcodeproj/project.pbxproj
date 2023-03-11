@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723A7E9829BC52FF000FDDF6 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A7E9729BC52FF000FDDF6 /* MyTextView.swift */; };
 		7280EB6729B9B92300A8F1E5 /* SwiftUI_tutorial__1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280EB6629B9B92300A8F1E5 /* SwiftUI_tutorial__1App.swift */; };
 		7280EB6929B9B92300A8F1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280EB6829B9B92300A8F1E5 /* ContentView.swift */; };
 		7280EB6B29B9B92400A8F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */; };
@@ -15,13 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723A7E9729BC52FF000FDDF6 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		7280EB6329B9B92300A8F1E5 /* SwiftUI_tutorial_#1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI_tutorial_#1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7280EB6629B9B92300A8F1E5 /* SwiftUI_tutorial__1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorial__1App.swift; sourceTree = "<group>"; };
 		7280EB6829B9B92300A8F1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7280EB6D29B9B92400A8F1E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7280EB7429B9BCB100A8F1E5 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
-		7280EB7629B9BDB400A8F1E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,7 @@
 				7280EB6A29B9B92400A8F1E5 /* Assets.xcassets */,
 				7280EB6C29B9B92400A8F1E5 /* Preview Content */,
 				7280EB7429B9BCB100A8F1E5 /* MyVStackView.swift */,
-				7280EB7629B9BDB400A8F1E5 /* README.md */,
+				723A7E9729BC52FF000FDDF6 /* MyTextView.swift */,
 			);
 			path = "SwiftUI_tutorial_#1";
 			sourceTree = "<group>";
@@ -143,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7280EB6929B9B92300A8F1E5 /* ContentView.swift in Sources */,
+				723A7E9829BC52FF000FDDF6 /* MyTextView.swift in Sources */,
 				7280EB6729B9B92300A8F1E5 /* SwiftUI_tutorial__1App.swift in Sources */,
 				7280EB7529B9BCB100A8F1E5 /* MyVStackView.swift in Sources */,
 			);
