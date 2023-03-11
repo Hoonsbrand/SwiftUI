@@ -24,7 +24,7 @@ struct MyTextView: View {
     
     var body: some View {
         VStack {
-            Spacer()
+//            Spacer()
             
             Text("배경 아이템 인덱스 \(self.index)")
                 .font(.system(size: 30))
@@ -32,7 +32,8 @@ struct MyTextView: View {
                 .frame(minWidth: 0, maxWidth: .infinity,
                        minHeight: 0, maxHeight: .infinity)
             
-            Spacer()
+//            Spacer()
+            
         }
         .background(backgroundColors[index])
         .onTapGesture {
