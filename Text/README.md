@@ -1,5 +1,7 @@
 #  SwiftUI_Text
 
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/63503972/228459398-026800d9-771f-4cb4-9405-f5adfa313d02.png">
+
 ```swift
 Text("Hello SwiftUI!")
     .font(.title)
