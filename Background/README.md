@@ -1,7 +1,7 @@
 #  SwiftUI_Background
 
 > **.background**: 대상의 뒷배경 설정
-    **.overlay**: 대상의 앞배경 설정
+    <br> **.overlay**: 대상의 앞배경 설정
 <br>
 <br>
 <br>
