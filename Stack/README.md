@@ -2,7 +2,7 @@
 
 > **VStack**: Vertical Stack (세로로 나열) <br>
     **HStack**: Horizontal Stack (가로로 나열) <br>
-        **ZStack**: Z-index Stack (겹쳐서 나열) <br>
+        **ZStack**: Z-index Stack (겹쳐서 나열) <br> <br>
             총 5개의 예제로 진행이 되었는데, 모두 정리할 필요는 없다고 느껴서 마지막 2개만 정리하려고 한다.
 <br>
 <br>
@@ -96,7 +96,9 @@ VStack(spacing: 50) {
 }
 ```
 <br>
-첫번째와 두번째 1은 같은 모습으로 나오지만 서로 다른 코드를 가지고 있다. <br>
+
+첫번째와 두번째 1은 같은 모습으로 나오지만 서로 다른 코드를 가지고 있다.
+<br>
 
 **첫번째**
 - ZStack을 사용해서 Circle에 1을 표현
