@@ -13,7 +13,8 @@ init(
 
 **axes**
 - 스크롤 방향을 설정하며, vertical이 기본값이다.
-**showsIndicators
+
+**showsIndicators**
 - 인디케이터의 유무를 설장하며 true가 기본값이다.
 <br>
 <br>
