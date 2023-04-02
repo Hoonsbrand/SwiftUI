@@ -85,8 +85,8 @@ struct InitEnumBasic_Previews: PreviewProvider {
 <br>
 
 4. body에서 VStack으로 count와 title을 세로로 쌓아준다.
- - 이미 값들이 preview에서 할당된 상태이기 때문에 단순하게 변수를 호출하기만 하면 된다.
- - 또한 HStack으로 preview를 구성했기 때문에 한가지의 과일 정보를 보여주기 위한 View를 만들었다고 보여져도 각 생성자에 맞는 View 두개가 만들어진다.
+    - 이미 값들이 preview에서 할당된 상태이기 때문에 단순하게 변수를 호출하기만 하면 된다.
+    - 또한 HStack으로 preview를 구성했기 때문에 한가지의 과일 정보를 보여주기 위한 View를 만들었다고 보여져도 각 생성자에 맞는 View 두개가 만들어진다.
  <br>
  <br>
  <br>
