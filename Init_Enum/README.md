@@ -74,10 +74,16 @@ struct InitEnumBasic_Previews: PreviewProvider {
 
 **init & enum**
 1. 사용할 변수와 enum을 생성한다.
+<br>
+
 2. init 함수는 파라미터로 count와 fruit을 받는다.
     - 받은 count를 멤버 변수에 할당해준다.
     - switch문을 통해 받은 fruit의 종류에 따라 title과 background를 알맞게 할당해준다.
+<br>
+
 3. 이번엔 좀 독특하게 preview에서 struct를 호출해줄 때 생성자를 사용해 값을 넣어주고 HStack으로 가로 Stack을 미리 만들어준다.
+<br>
+
 4. body에서 VStack으로 count와 title을 세로로 쌓아준다.
  - 이미 값들이 preview에서 할당된 상태이기 때문에 단순하게 변수를 호출하기만 하면 된다.
  - 또한 HStack으로 preview를 구성했기 때문에 한가지의 과일 정보를 보여주기 위한 View를 만들었다고 보여져도 각 생성자에 맞는 View 두개가 만들어진다.
