@@ -1,6 +1,8 @@
 #  SwiftUI_ForEach
 
 **SwiftUI에서의 ForEach**
+<br>
+
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/63503972/229341677-0ee80390-fa81-449c-a1da-b2122cbd1b6e.png">
 <br>
 
@@ -49,7 +51,7 @@ var body: some View {
 <br>
 <br>
 
-**배열의 각 요소를 고유하게 식별**
+**2. 배열의 각 요소를 고유하게 식별**
 - **RandomAccessCollection** 프로토콜을 준수하는 데이터를 제공한다.
 - 데이터의 각 요소들을 구분하고 식별할 수 있도록 위 코드처럼 id를 직접 전달하거나 데이터 타입 자체에 identifiable 프로토콜을 채택할 수 있다.
 - 타입추론이 가능해서 위 코드처럼 **\   .self**로도 작성이 가능하다.
