@@ -104,7 +104,7 @@ struct ContentView: View {
 <br>
 
 ```swift
-Button(action: <#T##() -> Void#>, label: <#T##() -> Label#>)
+Button(action: () -> Void, label:  () -> Label)
 ```
 > 버튼의 생성자는 action과 label로 구성되어있다.
     <br> action에는 button을 눌렀을 때 실행할 event를,
