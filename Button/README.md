@@ -117,7 +117,7 @@ Button(action: <#T##() -> Void#>, label: <#T##() -> Label#>)
 <br>
 
 4번 버튼 바로 전에 Divider를 넣게되면 **"Extra argument in call"** 이라는 에러가 발생한다.
-<br> 이를 해석해보면 **"호출에 추가 인수가 있다"** 를 의미하는데, SwiftUI에서 컨테이너 뷰의 자식은 총 10개 까지만 가능하다. 그래서 10개 이상의 자식을 추가 하면 Extra argument in call 를 error를 볼 수 있다.
+<br> 이를 해석해보면 **"호출에 추가 인수가 있다"** 를 의미하는데, SwiftUI에서 컨테이너 뷰의 자식은 총 10개 까지만 가능하다. 그래서 10개 이상의 자식을 추가 하면 Extra argument in call error를 볼 수 있다.
 <br>  
 
 이런 현상을 해결하기 위해서는 Group으로 묶어서 View 작업을 수행하면 된다.
