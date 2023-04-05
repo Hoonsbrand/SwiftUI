@@ -15,8 +15,8 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - Properties
-    @State var backgroundColor: Color = .green
-    @State var title: String = "Binding Basic View"
+    @State private var backgroundColor: Color = .green
+    @State private var title: String = "Binding Basic View"
     
     var body: some View {
         ZStack {
@@ -41,3 +41,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

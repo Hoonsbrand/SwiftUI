@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BindingChild: View {
     // MARK: - Properties
-    @State var buttonColor: Color = .blue
+    @State private var buttonColor: Color = .blue
     @Binding var backgroundColor: Color
     @Binding var title: String
     
