@@ -12,7 +12,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    // MARK: - Properties
+    // properties
     @State var backgroundColor: Color = .pink
     
     var body: some View {
@@ -58,3 +58,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
