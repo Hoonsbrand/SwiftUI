@@ -88,7 +88,7 @@ BindingChild 안에서만 사용하는 State 변수 buttonColor 하나와 상위
 <br> Binding을 이용하여 자식 View에서 값이 변경되면 부모 View에도 값이 변경되도록 처리된다. 
 <br>
 
-**constant**
+### constant
 PreviewProvider는 다양한 상황에서의 View를 미리 보여주는 것이기 때문에, 다른 View에서 값이 변화하는 것에 따라 Preview를 새로 그리는 데에는 무리가 있다.
 <br> 그렇기 때문에 PreviewProvider에서는 constant(_:)라는 Binding의 타입 메서드를 통해서 각 Binding 변수의 특정 값을 고정 값으로 제공하여, 해당 값에 따른 Preview를 확인할 수 있다.
 <br> 공식문서에서 확인할 수 있듯, constant는 원하는 값을 인자로 넘겨주기만 하면 해당 값을 Binding 타입으로 return한다.
