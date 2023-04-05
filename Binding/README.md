@@ -87,6 +87,8 @@ BindingChild 안에서만 사용하는 State 변수 buttonColor 하나와 상위
 <br> 즉, 자식 View에서 값을 수정하려면, 부모에서 자식으로 Binding을 전달하여 자식 View에서 값을 수정할 수 있고, 
 <br> Binding을 이용하여 자식 View에서 값이 변경되면 부모 View에도 값이 변경되도록 처리된다. 
 <br>
+<br>
+<br>
 
 ### constant
 PreviewProvider는 다양한 상황에서의 View를 미리 보여주는 것이기 때문에, 다른 View에서 값이 변화하는 것에 따라 Preview를 새로 그리는 데에는 무리가 있다.
