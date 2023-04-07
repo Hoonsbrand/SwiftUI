@@ -6,6 +6,7 @@
     <br> **도착**: View가 도달하려는 목표 지점이고, 도착하면 멈추는 상태
 <br>
 <br>
+<br>
 
 ```swift
 withAnimation(animation: Animation?, body: () throws -> Result)
@@ -18,6 +19,8 @@ withAnimation(animation: Animation?, body: () throws -> Result)
 **withAnimation**과 **.animation**의 animation 파라미터는 애니메이션의 타이밍 함수를 지정하는데 사용된다. 
 <br> **Animation**은 애니메이션의 속성을 지정하는 열거형으로 여러 가지 유형의 애니메이션을 나타내는 케이스가 포함되어 있다.
 <br>
+<br>
+<br>
 
 ### 주요 Animation 케이스
 - **linear**: 애니메이션 효과가 처음부터 끝까지 일정한 속도로 진행된다.
@@ -29,6 +32,7 @@ withAnimation(animation: Animation?, body: () throws -> Result)
 <br>
 
 이 외에도 Animation 열거형에는 애니메이션 효과의 시간 간격, 반복 횟수, 지연 시간 등을 설정하는 다양한 메서드와 프로퍼티가 있다. 예를 들어, .delay 메서드는 애니메이션 효과의 시작을 지연시키는 데 사용된다. .repeatCount 메서드는 애니메이션 효과의 반복 횟수를 설정한다.
+<br>
 <br>
 <br>
 
