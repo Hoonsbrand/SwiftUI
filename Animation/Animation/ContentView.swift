@@ -28,9 +28,9 @@ struct ContentView: View {
             Button {
                 withAnimation(
                     .default
-//                        .repeatCount(5)       // 반복 횟수 지정
-//                        .repeatForever()      // 계속 반복
-//                        .delay(1.0)           // 딜레이
+                    //                        .repeatCount(5)       // 반복 횟수 지정
+                    //                        .repeatForever()      // 계속 반복
+                    //                        .delay(1.0)           // 딜레이
                 ) {
                     isAnimated.toggle()
                 }
@@ -50,8 +50,9 @@ struct ContentView: View {
                 .offset(y: isAnimated ? 300 : 0)// View가 horizontal, vertical 방향으로 할당한 값만큼 이동
             
             Spacer()
-
+            
         } // VStack
+    
         
         // 2번 View - Speed에 따른 animation
         VStack {
@@ -111,3 +112,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
