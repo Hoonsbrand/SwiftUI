@@ -31,7 +31,7 @@ struct ContentView: View {
                             showTransition.toggle()
                         }
                     } label: {
-                        Text("Buton")
+                        Text("Button")
                     }
                     
                     Spacer()
@@ -57,13 +57,12 @@ struct ContentView: View {
                         .transition(.asymmetric(
                             insertion: .move(edge: .leading),
                             removal: .move(edge: .trailing)))
-                    
                 }
             } // ZStack
-            .frame(maxWidth: .infinity, maxHeight: .infinity) // geometry를 사용했더니 alignment가 변경되어 해당코드 추가
+            // geometry를 사용했더니 alignment가 변경되어 해당코드 추가
+            .frame(maxWidth: .infinity)
             .ignoresSafeArea(edges: .bottom)
         } // GeometryReader
-        
     }
 }
 
@@ -72,3 +71,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
